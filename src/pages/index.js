@@ -78,15 +78,16 @@ export default function Home() {
                   takım 2.'liğimiz
                 </li>
                 <li>
-                  2020'de Üniversiteler Türkiye Senkronize Kayak Şampiyonası’nda
-                  Türkiye 2.'liğimiz
-                </li>
-                <li>
-                  2021'da Üniversiteler Türkiye Kayak Şampiyonası’nda İstanbul
+                  2019'da Üniversiteler Türkiye Kayak Şampiyonası’nda İstanbul
                   erkekler takım 3.'lüğümüz
                 </li>
                 <li>
-                  2021'da Üniversiteler Türkiye Kayak Şampiyonası’nda İstanbul
+                  2020'de Üniversiteler Türkiye Senkronize Kayak Şampiyonası’nda
+                  Türkiye 2.'liğimiz
+                </li>
+
+                <li>
+                  2021'de Üniversiteler Türkiye Kayak Şampiyonası’nda İstanbul
                   erkekler takım 3.'lüğümüz
                 </li>
               </ul>
