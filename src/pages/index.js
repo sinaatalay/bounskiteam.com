@@ -19,10 +19,20 @@ export default function Home() {
           <Logo className="w-44 h-44" />
           <ul className="flex-row font-bold hidden lg:flex">
             <li className="ml-24">
-              <a href="#hakkimizda" className="hover:text-slate-500 transition ease-out duration-200">Hakkımızda</a>
+              <a
+                href="#hakkimizda"
+                className="hover:text-slate-500 transition ease-out duration-200"
+              >
+                Hakkımızda
+              </a>
             </li>
             <li className="ml-24">
-              <a href="#basarilarimiz" className="hover:text-slate-500 transition ease-out duration-200">Başarılarımız</a>
+              <a
+                href="#basarilarimiz"
+                className="hover:text-slate-500 transition ease-out duration-200"
+              >
+                Başarılarımız
+              </a>
             </li>
           </ul>
         </nav>
@@ -46,7 +56,11 @@ export default function Home() {
               takımız.
             </p>
           </div>
-          <img src="/erzurum.jpg" alt="Erzurum" className="mt-4 lg:mt-0 lg:w-2/5" />
+          <img
+            src="/erzurum.jpg"
+            alt="Erzurum"
+            className="mt-4 lg:mt-0 lg:w-2/5"
+          />
         </div>
         <div
           id="basarilarimiz"
@@ -78,7 +92,11 @@ export default function Home() {
               </ul>
             </p>
           </div>
-          <img src="/basari.jpg" alt="Başarı" className="mt-4 lg:mt-0 lg:w-2/5 lg:pr-6" />
+          <img
+            src="/basari.jpg"
+            alt="Başarı"
+            className="mt-4 lg:mt-0 lg:w-2/5 lg:pr-6"
+          />
         </div>
         <div className="flex flex-col lg:flex-row items-center my-8 justify-between">
           <div className="lg:w-3/5  lg:pr-6">
@@ -89,7 +107,11 @@ export default function Home() {
               yapmaya hazırlıklı olmalısınız.
             </p>
           </div>
-          <img src="/takim.jpg" alt="Takım fotoğrafı" className="mt-4 lg:mt-0 lg:w-2/5" />
+          <img
+            src="/takim.jpg"
+            alt="Takım fotoğrafı"
+            className="mt-4 lg:mt-0 lg:w-2/5"
+          />
         </div>
         <div className="flex flex-col lg:flex-row-reverse items-center my-8 justify-between">
           <div className="lg:w-3/5">
@@ -100,7 +122,11 @@ export default function Home() {
               takım olarak bolca eğleniyoruz.
             </p>
           </div>
-          <img src="/mangal.jpg" alt="Mangal" className="mt-4 lg:mt-0 lg:w-2/5 lg:pr-6" />
+          <img
+            src="/mangal.jpg"
+            alt="Mangal"
+            className="mt-4 lg:mt-0 lg:w-2/5 lg:pr-6"
+          />
         </div>
         <div className="flex flex-col lg:flex-row items-center mt-8 justify-between">
           <div className="lg:w-3/5 lg:pr-6">
@@ -114,7 +140,11 @@ export default function Home() {
             </p>
           </div>
 
-          <img src="/kayak.jpg" alt="Kayak yarışçısı" className="mt-4 lg:mt-0 lg:w-2/5" />
+          <img
+            src="/kayak.jpg"
+            alt="Kayak yarışçısı"
+            className="mt-4 lg:mt-0 lg:w-2/5"
+          />
         </div>
       </section>
 

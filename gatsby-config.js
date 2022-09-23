@@ -7,14 +7,14 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /images/
-        }
-      }
-    }
+          include: /images/,
+        },
+      },
+    },
   ],
 }
