@@ -14,8 +14,8 @@ html {
   @apply bg-no-repeat bg-cover;
 }
 h2 {
-  @apply text-2xl lg:text-6xl mb-4;
+  @apply text-2xl lg:text-3xl mb-4;
 }
 p {
-  @apply text-lg lg:text-3xl text-slate-600;
+  @apply text-base lg:text-lg text-slate-600;
 }

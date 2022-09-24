@@ -14,9 +14,9 @@ export default function Home() {
         <meta charSet="utf-8" />
         <title>Bogazici University Ski Team</title>
       </Helmet>
-      <header className="background h-full w-full p-6 2xl:px-96 md:px-36 lg:py-20 text-slate-100 lg:text-3xl md:text-xl text-lg">
+      <header className="background h-full w-full p-6 2xl:px-72 md:px-36 lg:py-20 text-slate-100 lg:text-xl md:text-xl text-lg">
         <nav className="flex flex-row justify-around lg:justify-between items-center">
-          <Logo className="w-44 h-44" />
+          <Logo className="w-32 h-32" />
           <ul className="flex-row font-bold hidden lg:flex">
             <li className="ml-24">
               <a
@@ -36,8 +36,8 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <div className="w-full my-80 text-center xl:text-left">
-          <h1 className="font-bold tracking-widest lg:text-7xl text-5xl">
+        <div className="w-full my-56 text-center xl:text-left">
+          <h1 className="font-bold tracking-widest text-5xl">
             Bogazici University
             <br /> Ski Team
           </h1>
@@ -46,7 +46,7 @@ export default function Home() {
       <section className="p-6 2xl:px-96 ">
         <div
           id="hakkimizda"
-          className="flex flex-col lg:flex-row items-center my-8 justify-between"
+          className="flex flex-col lg:flex-row items-center mb-8 lg:my-8 justify-between"
         >
           <div className="lg:w-3/5 lg:pr-6">
             <h2>Hakkımızda</h2>
@@ -154,7 +154,7 @@ export default function Home() {
           Copyright © {new Date().getFullYear()} Bogazici University Ski Team
         </p>
         <a href="https://instagram.com/bounskiteam" title="Instagram">
-          <FaInstagram className="text-5xl text-blue-500 hover:text-blue-900 transition ease-out duration-200 hidden lg:inline" />
+          <FaInstagram className="text-2xl text-blue-500 hover:text-blue-900 transition ease-out duration-200" />
         </a>
       </footer>
     </div>
